@@ -82,7 +82,7 @@ while(multiplo<3000){
 	console.log("La suma de todos los multiplos de 11 menores a 300 es: " + suma)
 }
 --------------------------------------------------------------------------------------------------------------------------
-/*Ejercicio #7: Listas de valores*/
+//*Ejercicio #7: Listas de valores
 
 var lista1 = 0;
 var lista2 = 0;
@@ -105,4 +105,46 @@ if(lista1 < lista2){
 	lista_mayor=lista1
 	console.log("Las listas son iguales con un acumulado de: " + lista_mayor)
 }
+-------------------------------------------------------------------------------------------------------------------------- 
+//Ejercicio #8: Identificando tipo de triangulo
+
+lado1 = prompt("¿Cuánto mide el lado 1?")
+lado2 = prompt("¿Cuánto mide el lado 2?")
+lado3 = prompt("¿Cuánto mide el lado 3?")
+if(lado1 === lado2 && lado2 === lado3){		
+	 console.log("Es tríangulo equilatero")
+} else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
+	console.log("Es tríangulo isosceles pero puede ser triángulo rectángulo")
+	angulo = prompt("¿Hay algún ángulo de 90 grados?")
+	if (angulo === "si") {
+		console.log("Es triángulo rectángulo ")
+	}
+} else {
+	console.log("Es triangulo escaleno")
+}
 --------------------------------------------------------------------------------------------------------------------------
+//Ejercicio #9: Traduciendo palabras
+
+var palabra; 
+palabra = prompt("Qué palabras quieres traducir?")
+switch(palabra){
+	case "casa":
+	console.log("house")
+	break;
+	case "mesa":
+	console.log("table")
+	break;
+	case"perro":
+	console.log("dog")
+	break;
+	case"gato":
+	console.log("cat")
+	break;
+	default:
+	console.log("No sé traducir esa palabra")
+	break;
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
