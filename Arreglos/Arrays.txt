@@ -1,0 +1,33 @@
+//*Ejercicio #2: Añadir elementos a un array con push(Ciclo for)*/
+
+var array = ["Jackie","Vero","Montse","Tania"]
+for(i=1; i<=1; i++){
+	array.push("Ale","Hass");
+}
+console.log(array)
+-------------------------------------------------------------------------------------------------------------------------
+// Ejercicio #4: Operaciones en arrays
+
+var valores = [true, 5, false, "hola", "adios", 2];
+if (valores[3].length > valores[4].length){
+	console.log(valores[3] + "tiene más letras")
+} else if (valores[3].length === valores[4].length) {
+	console.log("Tiene la misma cantidad de letras")
+} else {
+	console.log(valores[4] + " tiene más letras")
+}
+
+if (valores[0]||valores[2]){
+	console.log("es verdadero con el operador or")
+} else if (!(valores[0] && valores[2])) {
+	console.log("es falso con el operador &&")
+}
+
+console.log(valores[1] + valores[5])
+console.log(valores[1] - valores[5])
+console.log(valores[1] * valores[5])
+console.log(valores[1] / valores[5])
+console.log(valores[1] % valores[5])
+---------------------------------------------------------------------------------------------------------------------------
+
+
